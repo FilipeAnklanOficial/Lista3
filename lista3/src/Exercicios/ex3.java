@@ -34,7 +34,6 @@ public class ex3 {
         sexo = sc.nextLine();
 
         while(! sexo.equals("f") && ! sexo.equals("m")){
-            System.out.println("Terme inválido");
             System.out.println("Digite seu sexo");
             sexo = sc.nextLine();
         }
